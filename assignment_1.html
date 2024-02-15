@@ -1,0 +1,114 @@
+<!--Anurag Rijal-->
+<!--200584585-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <b>
+    <header>
+    <h1><b>Pizza Oder Form</b></h1>
+    </header>
+    <main>
+        <!--Pizza Oder Form-->
+        <form action="">
+            <fieldset class="pizza_details">
+                <legend>Pizza</legend>
+                <!--Number of pizza-->
+                <b> <label for="Pizza">Number of pizza</label><br>
+                 <select name="Number of pizza" id="Number of pizza">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br><br>
+
+                <!--Number of slices-->
+                <label for="slices">Number of Slices</label><br>
+                <select name="Number of Slices" id="Number of Slices">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+
+                <!--Crust-->
+                <label for="pizza">Select your crust</label><br>
+                <select id="crust" name="crust">
+                    <option value="Normal">Normal</option>
+                    <option value="Crispy Thin">Crispy Thin</option>
+                    <option value="Soft Pan">Soft Pan</option>
+                    <option value="Extreme Cheese">Extreme Cheese</option>
+                    <option value="Sausage & Cheese">Sausage & Cheese</option><br>
+                </select>
+                <br><br>
+
+                <!--Size-->
+                <label for="Pizza Size"> Size of Pizza</label><br>
+                <input type="checkbox"><label for="Size">Small</label>
+                <input type="checkbox"><label for="Size">Medium</label>
+                <input type="checkbox"><label for="Size">Large</label><br><br>
+                
+                <!--Topping-->
+                <label for="Topping">Topping</label><br>
+                <input type="radio"><label for="Toppings">Prpperoni</label>
+                <input type="radio"><label for="Toppings">Mushrooms</label>
+                <input type="radio" ><label for="Toppings">Onions</label>
+                <input type="radio"><label for="Toppings">Sausage</label><br><br>
+                
+                <!--Oder type-->
+                <label for="Oder type">Oder Type</label><br>
+                <input type="radio"><label for="Oder Type">Take out</label>
+                <input type="radio"><label for="Oder Type">Delivary</label>
+                <input type="radio" ><label for="Oder Type">Eat in</label>
+                <br>
+            </fieldset>
+        </form>
+
+
+        <!--Contact inforamtion-->
+        <form action="">
+            <fieldset class="Contact_info">
+                <legend>Contact information</legend>
+                
+                <!--Name-->
+                <label for="Name">Name</label><br>
+                <input type="text" placeholder="Enter your Name" required><br>
+
+                <!--Phone-->
+                <label for="Contact Number">Contact Number</label><br>
+                <input type="text" placeholder="Enter your contact number" ><br>
+                
+                <!--email-->
+                <label for="Email">Email</label><br>
+                <input type="text" placeholder="Enter your Email" required><br>
+                
+                <!--Address-->
+                <label for="Address">Address</label><br>
+                <input type="text" placeholder="Enter your address" required><br><br>
+            </fieldset>
+
+                <!-- Submit and Reset Buttons -->
+                <div class="button-container">
+                <br><input type="submit" value="Place Order">
+                <input type="reset" value="Reset Form">
+                </div>
+
+        </form>
+    </b>
+    </main>
+
+    <footer>
+        <p>© Pizza store</p>
+    </footer>
+</body>
+</html>
